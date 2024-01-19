@@ -1,0 +1,37 @@
+git clone <url>
+-- To clone the repo 
+
+git init 
+-- to initialize git in your local directory
+
+git remote add <name> <url>
+-- to add remote to your local repo 
+
+
+git add .
+-- to add cthe changes you made before commit 
+
+git commit -m "<your message>"
+-- to commit the changes 
+
+git push <name> <localBranch>[:<remoteBranch>]
+-- this will publish the localBranch to remoteBranch
+
+git pull <name> <remoteBranch>
+-- this will pull/get the contents of remoteBranch to your current working branch
+
+git status 
+-- to view the status of git
+
+Configuring the git username 
+git config --global user.name "Your name"
+git config --global user.email "your email address"
+
+- to create a new branch
+git checkout -b <newBranchName>
+
+- to view list of branches 
+git branch 
+
+- to checkout to  exitsing branch
+git checkout <branchName>

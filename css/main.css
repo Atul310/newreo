@@ -1,0 +1,68 @@
+/* @media media-type and (media-feature) {
+
+}
+
+/*
+
+Types of media type ==>> 
+all == applicable inn all type
+ of  screen devices
+
+screen ==>> applied to devices with screen 
+
+print ==>> if we have to print on the 
+physical devices 
+
+speech 
+
+
+
+
+
+*/ 
+
+body{
+    /* background-color: #ccc; */
+}
+@media screen {
+/* css for scrren */ 
+}
+/* for specific device type 
+ 
+we can write the width or 
+resoulution */
+.container{ /* this load 100% width for all screen
+     type */ 
+    width: 100%
+   }
+
+@media (max-width: 767px){
+   
+    /*  this is for mobile devuces*/
+    
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
+
+
+@media (max-width: 768px) and (max-width:1023px){
+    
+    
+    /*  this is for tablet */ 
+    
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+
+}
+
+
+@media (max-width: 1024px){
+    /*  this is for desktop and laptip view */ 
+}

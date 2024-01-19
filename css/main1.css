@@ -1,0 +1,36 @@
+.nav-height {
+    height :100px !important
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin :0 auto;
+}
+.row-custom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column-custom{
+    width: 100%;
+    max-width:calc()
+}
+.navbar-custom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bbbbbb;
+
+}
+.nav-item-custom{
+    margin:0 10px;
+    color:#000000;
+    text-decoration: none;
+}
+
+.log-custom {
+font-size: 1;
+font-weight: ;
+color: #ffffff;
+
+}
